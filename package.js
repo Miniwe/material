@@ -13,11 +13,31 @@ Package.onUse(function(api) {
 
   api.use([
     'fourseven:scss'
-  ], ['server']);
+  ], ['client', 'server']);
 
   api.addFiles([
-    'js/base.min.js',
-    'css/base.min.css'
+    // whole
+    // 'js/base.min.js',
+    // 'css/base.min.css'
+    'js/src/_.js',
+    'js/src/bootstrap.js',
+    'js/src/content.js',
+    'js/src/datepicker.js',
+    'js/src/dropdown.js',
+    'js/src/esc.js',
+    'js/src/footer.js',
+    'js/src/form-adv.js',
+    'js/src/get-target.js',
+    'js/src/header.js',
+    'js/src/menu.js',
+    'js/src/modal.js',
+    'js/src/tab.js',
+    'js/src/tile.js',
+    'js/src/toast.js',
+    'js/src/waves.js',
+    'js/src/webfont.js',
+    'js/src/winresize.js',
+    'sass/base.custom.scss'
   ], ['client']);
 
 });
