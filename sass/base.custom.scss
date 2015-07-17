@@ -6,12 +6,13 @@
 @import "mixin/utilities";
 
 @import "variable";
+$css-path: "../css/";
 
 // css reset
 	@import "reset";
 
 // elements
-	// @import "addon/font-awesome";
+	@import "addon/font-awesome";
 	@import "addon/material-design-icon";
 	@import "addon/waves";
 

@@ -19,6 +19,16 @@ Package.onUse(function(api) {
     // whole
     // 'js/base.min.js',
     // 'css/base.min.css'
+    'css/fonts/FontAwesome.otf',
+    'css/fonts/MaterialIcons-Regular.eot',
+    'css/fonts/MaterialIcons-Regular.ttf',
+    'css/fonts/MaterialIcons-Regular.woff',
+    'css/fonts/MaterialIcons-Regular.woff2',
+    'css/fonts/fontawesome-webfont.eot',
+    'css/fonts/fontawesome-webfont.svg',
+    'css/fonts/fontawesome-webfont.ttf',
+    'css/fonts/fontawesome-webfont.woff',
+    'css/fonts/fontawesome-webfont.woff2',
     'js/src/_.js',
     'js/src/bootstrap.js',
     'js/src/content.js',
