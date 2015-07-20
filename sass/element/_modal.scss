@@ -34,7 +34,7 @@
 }
 
 .modal-close {
-	color: $black-sec;
+	color: $white-bg-dark;
 	cursor: pointer;
 	display: block;
 	float: right;
@@ -45,7 +45,7 @@
 	padding-left: ($grid-gutter / 2);
 	&:focus,
 	&:hover {
-		color: $link-color;
+		color: $white;
 		text-decoration: none;
 	}
 }
@@ -73,6 +73,15 @@
 			-webkit-overflow-scrolling: touch;
 			-ms-overflow-style: -ms-autohiding-scrollbar;
 		}
+	}
+	&.modal-sm {
+		width: ($screen-sm - $grid-gutter * 2);
+	}
+	&.modal-md {
+		width: ($screen-md - $grid-gutter * 2);
+	}
+	&.modal-lg {
+		width: ($screen-lg - $grid-gutter * 2);
 	}
 	.modal.fade & {
 		transform: scale(0, 0);
@@ -115,11 +124,13 @@
 }
 
 .modal-heading {
-	margin-top: $margin-md;
-	margin-bottom: $margin-md;
+	padding-top: $margin-md;
+	padding-bottom: $margin-md;
 	padding-right: ($grid-gutter * 2);
 	padding-left: ($grid-gutter * 2);
 	position: relative;
+	background-color: $brand-color;
+	color: $white;
 }
 
 .modal-inner {

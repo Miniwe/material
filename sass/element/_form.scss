@@ -275,3 +275,14 @@ textarea.form-control {
 .label {
 	margin-bottom: $margin-sm;
 }
+
+
+.has-error {
+	* {
+		border-color: $palette-red;
+	}
+	.help-block {
+		color: $palette-red;
+		font-size: 80%;
+	}
+}

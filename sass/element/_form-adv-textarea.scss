@@ -1,4 +1,8 @@
 .textarea-autosize {
-	min-height: $input-height;
-	overflow-x: hidden;
+  min-height: $input-height;
+  overflow-x: hidden;
+}
+
+textarea.form-control {
+  height: $input-height;
 }

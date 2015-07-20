@@ -52,8 +52,10 @@
 	@each $color in $palette-list {
 		$i: index($palette-list, $color);
 
-		.page-#{$color} .content-heading {
-			background-color: nth($palette-color, $i);
+		.page-#{$color} {
+			.content-heading, .modal-heading {
+				background-color: nth($palette-color, $i);
+			}
 		}
 	}
 
