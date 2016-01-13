@@ -15,7 +15,7 @@ Package.onUse(function(api) {
     'fourseven:scss'
   ], ['client', 'server']);
 
-  api.addFiles([
+  api.addAssets([
     // whole
     // 'js/base.min.js',
     // 'css/base.min.css'
