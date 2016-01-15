@@ -15,17 +15,17 @@ Package.onUse(function(api) {
     'fourseven:scss'
   ], ['client', 'server']);
 
-  api.addAssets([
-    'css/fonts/MaterialIcons-Regular.eot',
-    'css/fonts/MaterialIcons-Regular.ijmap',
-    'css/fonts/MaterialIcons-Regular.ttf',
-    'css/fonts/MaterialIcons-Regular.woff',
-    'css/fonts/MaterialIcons-Regular.woff2',
-  ], ['client']);
+  // api.addAssets([
+  //   'css/fonts/MaterialIcons-Regular.eot',
+  //   'css/fonts/MaterialIcons-Regular.ijmap',
+  //   'css/fonts/MaterialIcons-Regular.ttf',
+  //   'css/fonts/MaterialIcons-Regular.woff',
+  //   'css/fonts/MaterialIcons-Regular.woff2',
+  // ], ['client']);
 
   api.addFiles([
-    'js/base.js',
-    'assets/sass/base.scss'
-  ], ['client']);
+    'js/base.min.js',
+    'assets/sass/base.custom.scss'
+  ], ['client'], {base: true});
 
 });
