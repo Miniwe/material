@@ -23,6 +23,11 @@ Package.onUse(function(api) {
   //   'css/fonts/MaterialIcons-Regular.woff2',
   // ], ['client']);
 
+  api.addAssets([
+    'css/images/bg/brand.jpg',
+    'images/samples/landscape.jpg',
+  ], 'client');
+
   api.addFiles([
     'js/base.min.js',
     'assets/sass/base.custom.scss'
