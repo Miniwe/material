@@ -39,7 +39,7 @@
 	}
 }
 
-.modal-close {
+.modal-close, .modal-header .close {
 	color: $black-sec-solid;
 	cursor: pointer;
 	display: block;
@@ -116,7 +116,7 @@
 	}
 }
 
-.modal-heading {
+.modal-header {
 	margin-top: $margin-md;
 	margin-bottom: $margin-md;
 	padding-right: ($grid-gutter * 1.5);
@@ -124,7 +124,7 @@
 	position: relative;
 }
 
-.modal-inner {
+.modal-body {
 	margin-top: $margin-md;
 	margin-bottom: $margin-md;
 	padding-right: ($grid-gutter * 1.5);
